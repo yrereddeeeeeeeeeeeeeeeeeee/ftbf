@@ -24,8 +24,8 @@ def replace_text_in_html_files(directory, old_text, new_text):
 
 # Укажите здесь путь к директории с HTML-файлами, текст который нужно заменить, и новый текст
 directory = './'
-old_text = '@allfordj.ru'
-new_text = '@fotobuffer.ru'
+old_text = 'allfordj.ru'
+new_text = 'fotobuffer.ru'
 #new_text = 'https://www.allfordij.ru/bitrix/'
 
 replace_text_in_html_files(directory, old_text, new_text)
