@@ -1,0 +1,25 @@
+.bill-friday {
+    height: 81px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent url('/static/images/bills/2021/soon-black-bill.png') 50% 100% no-repeat;
+    z-index: 4000;
+}
+
+.bill-friday-day {
+    height: 81px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent url('/static/images/bills/2021/black-bill.png') 50% 100% no-repeat;
+    z-index: 4000;
+}
+
+@media all and (max-width: 1007px) {
+    .bill {
+        display: none;
+    }
+}
